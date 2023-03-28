@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  page-navigation: true
+  favicon: img/favicon.png
+  twitter-card: true
+  navbar:
+    background: "#2e3481"
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: intro.qmd
+      - href: methods.qmd
+      - href: results.qmd
+      - href: key.qmd
+format:
+  html:
+    theme: 
+      - lumen
+      - styles.scss
+    toc: false
+execute:
+  echo: false
+  warning: false
+  message: false
+  code-tools: true
+
+
+

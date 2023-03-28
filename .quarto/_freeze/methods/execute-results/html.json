@@ -1,0 +1,14 @@
+{
+  "hash": "97eda3cf887c7ea9baab6bac754eb2c5",
+  "result": {
+    "markdown": "---\ntitle: \"Methods\"\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\nScientific research relies substantially on social surveys to assess knowledge, attitudes and action in relation to climate change issues. The objective of the current project was to develop and test an instrument to measure students’ understandings of, attitudes towards and actions against climate change to establish a baseline for larger research projects on Climate Change Education in Higher Education.\n\nThe initial questionnaire was designed in September 2021 and included questions tested in previous surveys with Higher Education students. The pre-test for the current project was administered in October 2021 with 15 graduate students. Participants generally provided positive feedback in relation to the length of the questionnaire and the clarity of the questions. Four questions were reformulated due to their length and difficulty in responding using a smartphone.\n\nWe recruited participants using social media and in class announcements facilitated by module coordinators with the permission of the head of each School. The survey was taken by 169 undergraduate students during the months of October and November 2022.  On average, it took 12 minutes to be completed.  \n\n## Participant demographics\n\nHere is some information about the participants in the survey:\n\n- About **38%** of respondents identified as Male, **59%** identified as Female, and **2%** as Non-binary;\n\n- In relation to the place where they grew up, **35%** come from a rural area.\n\n- When asked about their nationality, **70%** of respondents identified as Irish, **18%** indicated another European nationality, and **12%** another non-European nationality; \n\n- Most students are from the College of Engineering and Architecture (**45%**) and the College of Social Sciences and Law  (**43%**). \n\n- Most students were in their first (**50%**) or second (**33%**) year in UCD.\n\n- Finally, **62%** of students declared that they attended  a [Green-School](https://greenschoolsireland.org) in Ireland (i.e. with a green flag), whereas **8%** attended a secondary school in Ireland that was not a green school, and (**8%**) did not know if their school was a Green-School. \n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

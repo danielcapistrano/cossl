@@ -1,0 +1,79 @@
+---
+title: "Home"
+---
+
+<style>
+  body {
+  background-color: #2e3481;
+}
+  .quarto-title > h1.title {
+  opacity: 0 !important;
+}
+</style>
+
+
+::::{.columns .column-page style="color:#76b68a;top:0"}
+
+::: {.column width="60%"}
+[**University Climate Challenge**]{style="font-size:56px"}   
+[Research brief]{style="font-size:26px"}  
+:::
+
+::: {.column width="40%"}
+![](./img/windandwater.png)
+:::
+
+[Funded by]{style="font-size:26px; color:white"}  
+UCD College of Social Sciences and Law Seed Funding
+
+::::
+
+
+
+::::{.columns .column-body style="padding:15px; color:white"}
+
+
+[**Research team**]{style="font-size:36px"}   
+
+---
+
+:::{.column width="30%"}
+
+[![](./img/orla.png)](https://people.ucd.ie/orla.kelly1){fig-align="center"}  
+
+**Orla Kelly**   
+[School of Social Policy, Social Work and Social Justice]{style="color: #76b68a"}
+  
+Orla specialises in studying sustainable human well-being, eco-social policies, sustainable development, and the social dimensions of climate change. She has expertise in quantitative research and mixed methodologies.
+:::
+
+:::{.column width="5%"}
+:::
+
+:::{.column width="30%"}
+[![](./img/gabriela.png)](https://people.ucd.ie/gabriela.martinezsainz){fig-align="center"}  
+
+**Gabriela Martinez Sainz**  
+[School of Education]{style="color: #76b68a"}  
+    
+Gabriela specialises in children's rights and education for sustainable development, in particular, understanding how key elements essential for global, plural and sustainable societies – such as sustainability, human rights and citizenship– are taught and learnt.
+:::
+
+:::{.column width="5%"}
+:::
+
+:::{.column width="30%"}
+[![](./img/daniel.png)](https://www.danielcapistrano.com){fig-align="center"}  
+
+**Daniel Capistrano**  
+[School of Education and Geary Institute]{style="color: #76b68a"}   
+  
+Daniel specialises in educational indicators and social outcomes of schooling in different societies. His research spreads across distinct fields such as comparative education, public policy, sociology of education and social research methods.
+:::
+
+We would also like to acknowledge the contributions of **Aidan Ring** in
+the initial phases of the project.
+
+::::
+
+
