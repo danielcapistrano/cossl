@@ -72,13 +72,13 @@ When asked about how much they know in relation to climate change `r get_perc("k
 ### Specific knowledge
 Based on questions developed by the OECD [^16], students were asked to what extent they could explain some issues related to climate change. Among all issues, UCD students find the easiest to explain why some countries suffer more from global climate change than others, with `r get_perc("easyknezcntry", 1)` stating that they could do this easily or, at least, with some effort. This aspect is also mentioned as one of the easiest for 15-year-old participants of the OECD assessment across 66 countries, with a similar proportion of 72% on average. On the other hand, the hardest aspect to explain according to UCD students is *how economic crises in single countries affect the global economy*, with only half of the respondents indicating that they could do this easily or with a bit of effort. 
 
-There are also significant differences across colleges. Only `r get_perc_grp("easyknezexplco2", 1, "cossl", "CoSSL")`  of CoSSL students indicate that they can explain *how carbon dioxide emissions affect global climate change* compared to `r get_perc_grp("easyknezexplco2", 1, "cossl", "Others")` of their colleagues from other colleges. Conversely, `r get_perc_grp("easyknezrefugee", 1, "cossl", "CoSSL")` of CoSSL can *Discuss the different reasons why people become refugees* and only `r get_perc_grp("easyknezrefugee", 1, "cossl", "Others")` of respondents from other colleges can do that easily or with some effort. 
+There are also significant differences across colleges. Only `r get_perc_grp("easyknezexplco2", 1, "cossl", "CoSSL")`  of CoSSL students indicate that they can explain *how carbon dioxide emissions affect global climate change* compared to `r get_perc_grp("easyknezexplco2", 1, "cossl", "Others")` of their peers from other colleges. Conversely, `r get_perc_grp("easyknezrefugee", 1, "cossl", "CoSSL")` of CoSSL can discuss  reasons why people become refugees and only `r get_perc_grp("easyknezrefugee", 1, "cossl", "Others")` of respondents from other colleges can do that easily or with some effort. 
 
 [^16]: OECD. PISA 2018 Results (Volume VI): Are Students Ready to Thrive in an Interconnected World? PISA. OECD, 2020. https://doi.org/10.1787/d5f68679-en.
 
 
 ### Information sources
-The most cited source of information about the environmental crisis that UCD respondents rely on is *News Sites* (`r round(sum(df_ucd$knsrcsites, na.rm=T)/nrow(df_ucd)*100)`%) followed by *Environmental organisations* (`r round(sum(df_ucd$knsrcenvorg, na.rm=T)/nrow(df_ucd)*100)`%) and *Instagram* (`r round(sum(df_ucd$knsrcinsta, na.rm=T)/nrow(df_ucd)*100)`%). The least cited sources are *Facebook* (`r round(sum(df_ucd$knsrcface, na.rm=T)/nrow(df_ucd)*100)`%) and *Youth groups* (`r round(sum(df_ucd$knsrcyouth, na.rm=T)/nrow(df_ucd)*100)`%). Located also at the bottom of the ranking, only `r round(sum(df_ucd$knsrcucdoth, na.rm=T)/nrow(df_ucd)*100)`% of students mentioned that they rely on information from *other sources at UCD (outside of lectures)*, with `r round(sum(df_ucd$knsrcucdtch, na.rm=T)/nrow(df_ucd)*100)`% of them relying on information from *modules/lectures in UCD*. 
+The most cited source of information about the environmental crisis that UCD respondents rely on is *news sites* (`r round(sum(df_ucd$knsrcsites, na.rm=T)/nrow(df_ucd)*100)`%) followed by *environmental organisations* (`r round(sum(df_ucd$knsrcenvorg, na.rm=T)/nrow(df_ucd)*100)`%) and *Instagram* (`r round(sum(df_ucd$knsrcinsta, na.rm=T)/nrow(df_ucd)*100)`%). The least cited sources are *Facebook* (`r round(sum(df_ucd$knsrcface, na.rm=T)/nrow(df_ucd)*100)`%) and *Youth groups* (`r round(sum(df_ucd$knsrcyouth, na.rm=T)/nrow(df_ucd)*100)`%). Only `r round(sum(df_ucd$knsrcucdoth, na.rm=T)/nrow(df_ucd)*100)`% of students mentioned that they rely on information from *other sources at UCD (outside of lectures)*, with `r round(sum(df_ucd$knsrcucdtch, na.rm=T)/nrow(df_ucd)*100)`% of them relying on information from *modules/lectures in UCD*. 
 
 
 ```{r}
@@ -129,12 +129,12 @@ tb_sources  |>
 
 ```
 
-## Anxiety
+## Emotional response
 
 
-When asked how often they think about climate change, `r get_perc("anxweek",1)` of respondents say that they think about it at least every week, with `r get_perc("anxday",1)` thinking about climate change every day or multiple times a day. The groups that present the highest proportion of thinking about it daily are female students (`r get_perc_grp("anxday", 1, "female", "Female")`) and those coming from rural areas (`r get_perc_grp("anxday", 1, "demurbrur", 2)`). In addition, half of the respondents indicated that they are very or extremely worried about climate change. These levels are also higher among female students (`r get_perc_grp("veryworried", 1, "female", "Female")`) and CoSSL students `r get_perc_grp("veryworried", 1, "cossl", "CoSSL")`. 
+When asked how often they think about climate change, `r get_perc("anxweek",1)` of respondents say that they think about it at least every week, with `r get_perc("anxday",1)` thinking about climate change every day or multiple times a day. The groups that present the highest proportion of thinking about it daily are female students (`r get_perc_grp("anxday", 1, "female", "Female")`) and those coming from rural areas (`r get_perc_grp("anxday", 1, "demurbrur", 2)`). In addition, half of the respondents indicated that they are very or extremely worried about climate change. These levels are also higher among female students (`r get_perc_grp("veryworried", 1, "female", "Female")`) and CoSSL students (`r get_perc_grp("veryworried", 1, "cossl", "CoSSL")`). 
 
-To investigate this worry in more detail, researchers asked participants to what extent they were worried because of the consequences of climate change to determined groups. 84% of respondents indicated that they were very or extremely worried about the consequences to *Future generations* and only 22% stated that they were very/extremely worried about the consequences to their *lifestyles now*. 
+Drawing on the work of Helm et al. (2018) and informed by  social-cognitive approaches, we examine the  forms of environmental concern that students are experiencing—egoistic (e.g., concern for oneself; one’s health or life), social-altruistic (e.g., concern for others; future generations or country), and biospheric (e.g., concern for plants and animals; nature). In keeping with the national average, 84% of respondents indicated that they were very or extremely worried about the consequences to *future generations* indicating a strong sense of socio altruistic concern. 22% stated that they were very/extremely worried about the consequences to their *lifestyles now*. 
 
 
 ```{r}
@@ -206,7 +206,19 @@ grid.arrange(
 
 The proportion of very/extremely worried students is higher in the CoSSL compared to other colleges for all groups. The highest difference is found in consequences for *My future* and for *Plants* whereas the lowest difference is found in consequences for *People in my community* and for *My lifestyle* now.  
 
-## Action
+### Perceived Risks of Climate Change
+Both the nationally representative study "Climate Change in the Irish Mind" and our survey asked  participants about their perception of climate change risks.  Specifically, both surveys also asked when climate change will start to harm people in Ireland. Results from the national survey showed that 47% of the population believes that climate change is already starting to harm people in Ireland. 22% responded *in 10 years*, 29% in *25 years* or more and 2% said that climate change will *never* harm people in Ireland. The same question was asked to UCD students with `r get_perc("irlwhenharm", 1)` saying that people are already being harmed now, `r get_perc("irlwhenharm", 4)` responding *in 10 years* and `r get_perc("irlwhenharm", 8)` saying that climate change will *never* harm people in Ireland. This result suggests that UCD students have a better grasp of the immediate threat that climate change and environmental degradation pose to the country.
+
+
+
+### Opportunities to Learn
+
+Less than half of the students participating in the survey (`r get_perc("ucdoptlearn", 1)`) said that there have been enough opportunities to learn about climate change and environment-related issues in their experience in UCD. This proportion is similar among students from CoSSL (`r get_perc_grp("ucdoptlearn", 1, "cossl", "CoSSL")`) and other colleges (`r get_perc_grp("ucdoptlearn", 1, "cossl", "Others")`). 
+
+The proportion of female students who indicated that UCD provided enough opportunities to learn about climate change is significantly lower (`r get_perc_grp("ucdoptlearn", 1, "female", "Female")`), compared to non-female students (`r get_perc_grp("ucdoptlearn", 1, "female", "Others")`). 
+
+
+## Calls for Action
 
 UCD students were also asked to what extent some groups should be acting more or less to address climate change. For `r get_perc("actmorebusiness", 1)` of the students, "Business" should be acting *much more* to address climate change. This is the highest proportion followed by "Government" (`r get_perc("actmoregov", 1)`) and "Politicians" (`r get_perc("actmorepolit", 1)`). Only `r get_perc("actmorectz", 1)` of respondents indicated that "Citizens" should act *much more* and `r get_perc("actmoreself", 1)` responded that "themselves" should be acting *much more* to address climate change. 
 
@@ -248,9 +260,8 @@ ggplot(tb_epa_ucd, aes(x = reorder(Categories, Values), y = Values,
 ```
 
 
-Both surveys also asked when climate change will start to harm people in Ireland. Results from the national survey showed that 47% of the population believes that climate change is already starting to harm people in Ireland. 22% responded *in 10 years*, 29% in *25 years* or more and 2% said that climate change will *never* harm people in Ireland. The same question was asked to UCD students with `r get_perc("irlwhenharm", 1)` saying that people are already being harmed now, `r get_perc("irlwhenharm", 4)` responding *in 10 years* and `r get_perc("irlwhenharm", 8)` saying that climate change will *never* harm people in Ireland.
 
-Finally, in relation to climate-friendly actions that UCD students have taken in the previous 12 months, `r round(sum(df_ucd$actyrfamily, na.rm=T)/nrow(df_ucd)*100)`% mentioned "Talked with family and friends about climate change". This is the most cited action followed by "Punished a company by NOT buying their products because of their contribution to climate change" (`r round(sum(df_ucd$actyrpunished, na.rm=T)/nrow(df_ucd)*100)`%) and "Reduced your meat and/or dairy intake for environmental reasons" (`r round(sum(df_ucd$actyrmeat, na.rm=T)/nrow(df_ucd)*100)`%). Some actions have different levels of support across students from the CoSSL and other colleges as indicated in Table 1. 
+We also gauged students' levels of personal and social engagement with climate change, `r round(sum(df_ucd$actyrfamily, na.rm=T)/nrow(df_ucd)*100)`% mentioned "Talked with family and friends about climate change". This is the most cited action followed by "Punished a company by NOT buying their products because of their contribution to climate change" (`r round(sum(df_ucd$actyrpunished, na.rm=T)/nrow(df_ucd)*100)`%) and "Reduced your meat and/or dairy intake for environmental reasons" (`r round(sum(df_ucd$actyrmeat, na.rm=T)/nrow(df_ucd)*100)`%). Some actions have different levels of support across students from the CoSSL and other colleges as indicated in Table 1. 
 
 ```{r}
 
@@ -303,23 +314,16 @@ tb_actions |>
 
 [^17]: Leiserowitz, A, J Carman, S Rosenthal, L Neyens, J Marlon, M Desmond, S Smith, MF Rochford, J O’Mahony, and L Reaper. “Climate Change in the Irish Mind.” New Haven: Yale Program on Climate Change Communication, 2021. https://www.epa.ie/publications/monitoring--assessment/climate-change/EPA-Climate-in-the-Irish-Mind-REPORT-19.pdf.
 
-
 ## UCD
 
 
-### Opportunities to Learn
+### Climate Related Behaviours
 
-Less than half of the students participating in the survey (`r get_perc("ucdoptlearn", 1)`) said that there have been enough opportunities to learn about climate change and environment-related issues in their experience in UCD. This proportion is similar among students from CoSSL (`r get_perc_grp("ucdoptlearn", 1, "cossl", "CoSSL")`) and other colleges (`r get_perc_grp("ucdoptlearn", 1, "cossl", "Others")`). 
-
-The proportion of female students who indicated that UCD provided enough opportunities to learn about climate change is significantly lower (`r get_perc_grp("ucdoptlearn", 1, "female", "Female")`), compared to non-female students (`r get_perc_grp("ucdoptlearn", 1, "female", "Others")`). 
-
-### Pro-Environmental Activities
-
-Only 1 in 3 students in UCD indicated that there have been enough opportunities to become involved in activities (such as volunteering) related to climate change and environment. 
+Most students are willing to take political actions to reduce climate change. Such behaviours can engender a sense of agency among those who are concerned about environmental problems. In particular when engagement is understood as a way of live as opposed to a series of battles (Wapner, 2016). Only 1 in 3 students in UCD indicated that there have been enough opportunities to become involved in activities (such as volunteering) related to climate change and environment. 
 
 The percentage of students from CoSSL who declared having those opportunities is lower (`r get_perc_grp("ucdoptinvolv", 1, "cossl", "CoSSL")`) than those from other colleges (`r get_perc_grp("ucdoptinvolv", 1, "cossl", "Others")`). 
 
-In the same way that was observed for learning opportunities, the proportion of respondents who said that UCD provided opportunities to act is lower among female students (`r get_perc_grp("ucdoptinvolv", 1, "female", "Female")`), compared to non-female students (`r get_perc_grp("ucdoptinvolv", 1, "female", "Others")`). 
+In the same way that was observed for learning opportunities, the proportion of respondents who said that UCD provided opportunities to act is lower among female students (`r get_perc_grp("ucdoptinvolv", 1, "female", "Female")`), compared to non-female students (`r get_perc_grp("ucdoptinvolv", 1, "female", "Others")`). Notably, the levels of political engagement among students is particularly low with less approximately 5% reporting engaging wiht government officials about climate change. 
 
 ### Barriers to Climate-Friendly Action and Lifestyle Changes
 

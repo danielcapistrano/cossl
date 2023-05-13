@@ -1,3 +1,5 @@
 # The following data file was not uploaded
 # Please contact authors to request access
 data/UCD_Survey_20221217.sav
+.quarto
+.DS_Store

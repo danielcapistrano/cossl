@@ -58,23 +58,23 @@ get_perc_grp <- function(mainvar, mainvalue, group, grpvalue){
 
 Scientific research relies substantially on social surveys to assess knowledge, attitudes and action in relation to climate change issues. The objective of the current project was to develop and test an instrument to measure students’ understandings of, attitudes towards and actions against climate change to establish a baseline for larger research projects on Climate Change Education in Higher Education.
 
-The initial questionnaire was designed in September 2021 and included questions tested in previous surveys with Higher Education students. The pre-test for the current project was administered in October 2021 with 15 graduate students. Participants generally provided positive feedback in relation to the length of the questionnaire and the clarity of the questions. Four questions were reformulated due to their length and difficulty in responding using a smartphone.
+The initial questionnaire was designed in September 2021 and included questions tested in previous surveys with higher education students. The pre-test was administered in October 2021 with 15 graduate students from the School of Education. Participants generally provided positive feedback in relation to the length of the questionnaire and the clarity of the questions. Four questions were reformulated due to their length and difficulty in responding using a smartphone.
 
-We recruited participants using social media and in class announcements facilitated by module coordinators with the permission of the head of each School. The survey was taken by `r nrow(df_ucd)` undergraduate students during the months of October and November 2022.  On average, it took `r round(mean(df_ucd$admdurat)/60)` minutes to be completed.  
+We recruited undergraduate participants using social media and in class announcements facilitated by module coordinators with the permission of the head of each School. The survey was taken by `r nrow(df_ucd)` undergraduate students during the months of October and November 2022.  On average, it took `r round(mean(df_ucd$admdurat)/60)` minutes to be completed.  
 
 ## Participant demographics
 
 Here is some information about the participants in the survey:
 
-- About **`r get_perc("demgender",1)`** of respondents identified as Male, **`r get_perc("demgender",2)`** identified as Female, and **`r get_perc("demgender",3)`** as Non-binary;
+- **`r get_perc("demgender",1)`** of respondents identified as male, **`r get_perc("demgender",2)`** identified as female, and **`r get_perc("demgender",3)`** as non-binary;
 
-- In relation to the place where they grew up, **`r get_perc("demurbrur",2)`** come from a rural area.
+- **`r get_perc("demurbrur",2)`** of students that responded the survey grew up in a rural area.
 
-- When asked about their nationality, **`r get_perc("demnat",1)`** of respondents identified as Irish, **`r get_perc("demnat",2)`** indicated another European nationality, and **`r get_perc("demnat",3)`** another non-European nationality; 
+- **`r get_perc("demnat",1)`** of respondents identified as Irish, **`r get_perc("demnat",2)`** indicated another European nationality, and **`r get_perc("demnat",3)`** another non-European nationality; 
 
-- Most students are from the College of Engineering and Architecture (**`r get_perc("demcollege",3)`**) and the College of Social Sciences and Law  (**`r get_perc("demcollege",5)`**). 
+- The majority of students came from the College of Engineering and Architecture (**`r get_perc("demcollege",3)`**) and the College of Social Sciences and Law  (**`r get_perc("demcollege",5)`**). 
 
-- Most students were in their first (**`r get_perc("demyear",1)`**) or second (**`r get_perc("demyear",2)`**) year in UCD.
+- Most students were in their first (**`r get_perc("demyear",1)`**) or second (**`r get_perc("demyear",2)`**) year at UCD.
 
-- Finally, **`r get_perc("demschgreen",1)`** of students declared that they attended  a [Green-School](https://greenschoolsireland.org) in Ireland (i.e. with a green flag), whereas **`r get_perc("demschgreen",2)`** attended a secondary school in Ireland that was not a green school, and (**`r get_perc("demschgreen",4)`**) did not know if their school was a Green-School. 
+- **`r get_perc("demschgreen",1)`** of students declared that they attended a [Green-School](https://greenschoolsireland.org) in Ireland (i.e. with a green flag), whereas **`r get_perc("demschgreen",2)`** attended a secondary school in Ireland that was not a green school, and (**`r get_perc("demschgreen",4)`**) did not know if their school was a Green-School. 
 
