@@ -74,6 +74,7 @@ Daniel specialises in educational indicators and social outcomes of schooling in
 We would also like to acknowledge the contribution of **Aidan Ring** in
 the initial phases of the project.
 
+This online version of the report was prepared using [R](https://cran.r-project.org) and [Quarto](https://quarto.org). All results presented here can be reproduced using the code available at [this public repository](https://github.com/danielcapistrano/cossl). 
 ::::
 
 

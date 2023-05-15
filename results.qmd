@@ -12,10 +12,11 @@ format:
 library(tidyverse) #data manipulation
 library(haven) #imports SPSS file
 library(scales) #wrap long labels on charts
+library(grid)
 library(gridExtra) #combine different plots in one image
 library(gt) #formatted tables
-library(grid)
 library(gtExtras)
+
 
 # Importing working dataset
 df_ucd <- read_sav("data/UCD_Survey_20221217.sav")
